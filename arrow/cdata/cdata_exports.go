@@ -39,10 +39,10 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/endian"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/endian"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
 )
 
 func encodeCMetadata(keys, values []string) []byte {

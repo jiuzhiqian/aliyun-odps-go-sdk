@@ -22,8 +22,8 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
 )
 
 // Table represents a logical sequence of chunked arrays.

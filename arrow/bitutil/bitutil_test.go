@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/testing/tools"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/testing/tools"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -266,7 +266,7 @@ var (
 func benchmarkCountSetBitsN(b *testing.B, offset, n int) {
 	nn := n/8 + 1
 	buf := make([]byte, nn)
-	//src := [4]byte{0x1f, 0xaa, 0xba, 0x11}
+	// src := [4]byte{0x1f, 0xaa, 0xba, 0x11}
 	src := [4]byte{0x01, 0x01, 0x01, 0x01}
 	for i := 0; i < nn; i++ {
 		buf[i] = src[i&0x3]

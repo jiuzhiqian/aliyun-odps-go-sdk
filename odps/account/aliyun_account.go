@@ -18,7 +18,7 @@ package account
 
 import (
 	"bytes"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
 	"net/http"
 	"net/url"
 	"os"

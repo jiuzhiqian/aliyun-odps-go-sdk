@@ -23,8 +23,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 const (
@@ -156,7 +156,6 @@ func (b *StringBuilder) Retain() {
 	b.builder.Retain()
 }
 
-//
 // Len returns the number of elements in the array builder.
 func (b *StringBuilder) Len() int { return b.builder.Len() }
 

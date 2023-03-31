@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	"golang.org/x/xerrors"
 )
 

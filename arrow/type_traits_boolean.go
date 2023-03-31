@@ -17,7 +17,7 @@
 package arrow
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
 )
 
 type booleanTraits struct{}

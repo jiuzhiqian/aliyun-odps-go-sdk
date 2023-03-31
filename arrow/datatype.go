@@ -19,7 +19,7 @@ package arrow
 import (
 	"hash/maphash"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
 )
 
 // Type is a logical type. They can be expressed as

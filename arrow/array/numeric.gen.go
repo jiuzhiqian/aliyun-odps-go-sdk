@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
 )
 
 // A type which represents an immutable sequence of int64 values.

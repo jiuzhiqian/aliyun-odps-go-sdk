@@ -17,7 +17,7 @@
 package data
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
 )
 
 type NullData struct{}

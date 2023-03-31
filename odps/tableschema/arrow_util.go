@@ -17,34 +17,34 @@
 package tableschema
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
 	"github.com/pkg/errors"
 )
 
 // TypeToArrowType convert odps field type to arrow field type
-//*        Storage Type      |  Arrow Type
-//*    ----------------------+---------------------
-//*      boolean             |  boolean
-//*      tinyint             |  int8
-//*      smallint            |  int16
-//*      int                 |  int32
-//*      bigint              |  int64
-//*      float               |  float32
-//*      double              |  float64
-//*      char                |  utf8
-//*      varchar             |  utf8
-//*      string              |  utf8
-//*      binary              |  binary
-//*      date                |  date32
-//*      datetime            |  timestamp(nano)
-//*      timestamp           |  timestamp(nano) 【注：精度选择功能开发中】
-//*      interval_day_time   |  day_time_interval
-//*      interval_year_month |  month_interval
-//*      decimal             |  decimal
-//*      struct              |  struct
-//*      array               |  list
-//*      map                 |  map
+// *        Storage Type      |  Arrow Type
+// *    ----------------------+---------------------
+// *      boolean             |  boolean
+// *      tinyint             |  int8
+// *      smallint            |  int16
+// *      int                 |  int32
+// *      bigint              |  int64
+// *      float               |  float32
+// *      double              |  float64
+// *      char                |  utf8
+// *      varchar             |  utf8
+// *      string              |  utf8
+// *      binary              |  binary
+// *      date                |  date32
+// *      datetime            |  timestamp(nano)
+// *      timestamp           |  timestamp(nano) 【注：精度选择功能开发中】
+// *      interval_day_time   |  day_time_interval
+// *      interval_year_month |  month_interval
+// *      decimal             |  decimal
+// *      struct              |  struct
+// *      array               |  list
+// *      map                 |  map
 func TypeToArrowType(odpsType datatype.DataType) (arrow.DataType, error) {
 	switch odpsType.ID() {
 	case datatype.BOOLEAN:
@@ -69,10 +69,10 @@ func TypeToArrowType(odpsType datatype.DataType) (arrow.DataType, error) {
 		return arrow.FixedWidthTypes.Date32, nil
 	case datatype.DATETIME:
 		return arrow.FixedWidthTypes.Timestamp_ns, nil
-		//return &arrow.TimestampType{Unit: arrow.Millisecond, TimeZone: "UTC"}, nil
+		// return &arrow.TimestampType{Unit: arrow.Millisecond, TimeZone: "UTC"}, nil
 	case datatype.TIMESTAMP:
 		return arrow.FixedWidthTypes.Timestamp_ns, nil
-		//return &arrow.TimestampType{Unit: arrow.Millisecond, TimeZone: "UTC"}, nil
+		// return &arrow.TimestampType{Unit: arrow.Millisecond, TimeZone: "UTC"}, nil
 	case datatype.IntervalDayTime:
 		return arrow.FixedWidthTypes.DayTimeInterval, nil
 	case datatype.IntervalYearMonth:
@@ -106,7 +106,7 @@ func TypeToArrowType(odpsType datatype.DataType) (arrow.DataType, error) {
 		}
 
 		return arrow.ListOf(itemType), nil
-		//case datatype.MAP:
+		// case datatype.MAP:
 		//	mapType, _ := odpsType.(datatype.MapType)
 		//	keyType, err := TypeToArrowType(mapType.KeyType)
 		//	if err != nil {

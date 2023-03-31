@@ -41,10 +41,10 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	"golang.org/x/xerrors"
 )
 
@@ -93,12 +93,12 @@ var formatToSimpleType = map[string]arrow.DataType{
 
 // decode metadata from C which is encoded as
 //
-//  [int32] -> number of metadata pairs
-//	for 0..n
-//		[int32] -> number of bytes in key
-//		[n bytes] -> key value
-//		[int32] -> number of bytes in value
-//		[n bytes] -> value
+//	 [int32] -> number of metadata pairs
+//		for 0..n
+//			[int32] -> number of bytes in key
+//			[n bytes] -> key value
+//			[int32] -> number of bytes in value
+//			[n bytes] -> value
 func decodeCMetadata(md *C.char) arrow.Metadata {
 	if md == nil {
 		return arrow.Metadata{}

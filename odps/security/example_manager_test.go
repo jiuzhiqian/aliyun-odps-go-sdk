@@ -18,9 +18,9 @@ package security_test
 
 import (
 	"fmt"
-	account2 "github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/security"
+	account2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/security"
 	"log"
 )
 

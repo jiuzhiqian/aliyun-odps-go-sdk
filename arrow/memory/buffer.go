@@ -19,7 +19,7 @@ package memory
 import (
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
 )
 
 // Buffer is a wrapper type for a buffer of bytes.

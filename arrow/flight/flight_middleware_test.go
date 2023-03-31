@@ -21,8 +21,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/flight"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/arrdata"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/flight"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/arrdata"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

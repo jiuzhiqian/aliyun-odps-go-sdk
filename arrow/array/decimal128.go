@@ -21,11 +21,11 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/decimal128"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/decimal128"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 // A type which represents an immutable sequence of 128-bit decimal values.

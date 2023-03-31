@@ -18,8 +18,8 @@ package security
 
 import (
 	"encoding/xml"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
 )
 
 type User struct {

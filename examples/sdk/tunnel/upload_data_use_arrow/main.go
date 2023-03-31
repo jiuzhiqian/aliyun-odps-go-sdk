@@ -1,13 +1,13 @@
 package main
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	odpsdata "github.com/aliyun/aliyun-odps-go-sdk/odps/data"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tunnel"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	odpsdata "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/data"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tunnel"
 	"github.com/pkg/errors"
 	"log"
 	"os"

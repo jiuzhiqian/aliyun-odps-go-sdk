@@ -23,11 +23,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/flatbuf"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/flatbuf"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 // CheckArrowFile checks whether a given ARROW file contains the expected list of records.

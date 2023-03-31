@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
 	"github.com/pkg/errors"
 	"net/url"
 	"strings"

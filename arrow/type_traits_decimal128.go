@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/decimal128"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/endian"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/decimal128"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/endian"
 )
 
 // Decimal128 traits

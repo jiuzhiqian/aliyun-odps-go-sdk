@@ -5,10 +5,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/data"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tunnel"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/data"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tunnel"
 )
 
 func main() {

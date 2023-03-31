@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/tensor"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/tensor"
 )
 
 // This example demonstrates how to build an array of int64 values using a builder and Append.
@@ -125,7 +125,8 @@ func Example_fromMemory() {
 
 // This example shows how to create a List array.
 // The resulting array should be:
-//  [[0, 1, 2], [], [3], [4, 5], [6, 7, 8], [], [9]]
+//
+//	[[0, 1, 2], [], [3], [4, 5], [6, 7, 8], [], [9]]
 func Example_listArray() {
 	pool := memory.NewGoAllocator()
 
@@ -207,7 +208,8 @@ func Example_listArray() {
 
 // This example shows how to create a FixedSizeList array.
 // The resulting array should be:
-//  [[0, 1, 2], (null), [3, 4, 5], [6, 7, 8], (null)]
+//
+//	[[0, 1, 2], (null), [3, 4, 5], [6, 7, 8], (null)]
 func Example_fixedSizeListArray() {
 	pool := memory.NewGoAllocator()
 
@@ -254,7 +256,8 @@ func Example_fixedSizeListArray() {
 
 // This example shows how to create a Struct array.
 // The resulting array should be:
-//  [{‘joe’, 1}, {null, 2}, null, {‘mark’, 4}]
+//
+//	[{‘joe’, 1}, {null, 2}, null, {‘mark’, 4}]
 func Example_structArray() {
 	pool := memory.NewGoAllocator()
 
@@ -336,10 +339,12 @@ func Example_structArray() {
 
 // This example shows how one can slice an array.
 // The initial (float64) array is:
-//  [1, 2, 3, (null), 4, 5]
+//
+//	[1, 2, 3, (null), 4, 5]
 //
 // and the sub-slice is:
-//  [3, (null), 4]
+//
+//	[3, (null), 4]
 func Example_float64Slice() {
 	pool := memory.NewGoAllocator()
 
@@ -586,7 +591,8 @@ func Example_table() {
 
 // This example demonstrates how to create a Map Array.
 // The resulting array should be:
-//   [{["ab" "cd" "ef" "gh"] [1 2 3 4]} (null) {["ab" "cd" "ef" "gh"] [(null) 2 5 1]}]
+//
+//	[{["ab" "cd" "ef" "gh"] [1 2 3 4]} (null) {["ab" "cd" "ef" "gh"] [(null) 2 5 1]}]
 func Example_mapArray() {
 	pool := memory.NewGoAllocator()
 	mb := array.NewMapBuilder(pool, arrow.BinaryTypes.String, arrow.PrimitiveTypes.Int16, false)

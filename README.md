@@ -3,7 +3,7 @@ Please note that this is far from production ready, it is still under active dev
 
 # Install
 ```shell
-go get github.com/aliyun/aliyun-odps-go-sdk
+go get github.com/jiuzhiqian/aliyun-odps-go-sdk
 ```
 
 # 目录说明
@@ -23,7 +23,7 @@ go sql/driver 接口的odps实现
 
 ## arrow
 https://github.com/apache/arrow/tree/master/go 的修改版本，ipc package添加了RecordBatch message的reader和writer方法。
-在使用odps sdk操作arrow时，需使用"github.com/aliyun/aliyun-odps-go-sdk/arrow"作为arrow的import path。
+在使用odps sdk操作arrow时，需使用"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"作为arrow的import path。
 
 # 使用注意事项
 1. Project, Table, Instance, Partition等需要从odps后台加载数据的对象，在除使用Name, Id等基本属性的Getter外, 需要先调用Load方法。

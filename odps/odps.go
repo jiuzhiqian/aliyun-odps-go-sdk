@@ -17,9 +17,9 @@
 package odps
 
 import (
-	account2 "github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
+	account2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
 	"github.com/pkg/errors"
 	"time"
 )

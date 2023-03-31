@@ -18,9 +18,9 @@ package tunnel
 
 import (
 	"bytes"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"github.com/pkg/errors"
 	"net/http"
 	"time"

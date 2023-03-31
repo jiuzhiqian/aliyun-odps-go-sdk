@@ -17,11 +17,11 @@
 package odps_test
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	account2 "github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	datatype2 "github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	account2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	datatype2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"log"
 )
 
@@ -35,7 +35,7 @@ func init() {
 		panic("account environments are not set")
 	}
 
-	//odpsIns.SetDefaultProjectName("odps_smoke_test")
+	// odpsIns.SetDefaultProjectName("odps_smoke_test")
 	odpsIns.SetDefaultProjectName(defaultProjectName)
 	// 在这里初始化表、分区等
 	createUserTable("user")

@@ -19,7 +19,7 @@ package arrow_test
 import (
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
 )
 
 func TestNullType(t *testing.T) {

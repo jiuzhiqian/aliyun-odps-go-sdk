@@ -24,10 +24,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/arrdata"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/arrdata"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 func TestCatStream(t *testing.T) {

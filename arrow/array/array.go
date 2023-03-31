@@ -19,9 +19,9 @@ package array
 import (
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
 )
 
 // A type which satisfies array.Interface represents an immutable sequence of values.

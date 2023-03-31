@@ -18,9 +18,9 @@ package odps_test
 
 import (
 	"fmt"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"io"
 	"log"
 )
@@ -132,9 +132,9 @@ func ExampleTable_GetPartitions() {
 }
 
 func ExampleTable_ExecSql() {
-	//table := odps.NewTable(odpsIns, "project_1", "sale_detail")
+	// table := odps.NewTable(odpsIns, "project_1", "sale_detail")
 	table := odpsIns.Table("has_struct")
-	//instance, err := table.ExecSql("SelectSale_detail", "select * from sale_detail;")
+	// instance, err := table.ExecSql("SelectSale_detail", "select * from sale_detail;")
 	instance, err := table.ExecSql("Select_has_struct", "select * from has_struct;")
 	if err != nil {
 		log.Fatalf("%+v", err)

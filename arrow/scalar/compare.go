@@ -16,9 +16,9 @@
 
 package scalar
 
-import "github.com/aliyun/aliyun-odps-go-sdk/arrow"
+import "github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
 
-//TODO(zeroshade): approxequals
+// TODO(zeroshade): approxequals
 // tracked in https://issues.apache.org/jira/browse/ARROW-13980
 
 // Equals returns true if two scalars are equal, which means they have the same

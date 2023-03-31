@@ -17,11 +17,11 @@
 package tunnel_test
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	account2 "github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tunnel"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	account2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tunnel"
 	"log"
 	"os"
 )
@@ -40,9 +40,9 @@ func init() {
 	odpsIns = odps.NewOdps(account, odpsEndpoint)
 	tunnelIns = tunnel.NewTunnel(odpsIns, tunnelEndpoint)
 
-	//createTableWithComplexData()
-	//createSaleDetailTable()
-	///createUploadSampleArrowTable()
+	// createTableWithComplexData()
+	// createSaleDetailTable()
+	// /createUploadSampleArrowTable()
 }
 
 func createTableWithComplexData() {

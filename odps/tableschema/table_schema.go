@@ -19,8 +19,8 @@ package tableschema
 import (
 	"bytes"
 	"fmt"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
 	"github.com/pkg/errors"
 	"strings"
 	"text/template"

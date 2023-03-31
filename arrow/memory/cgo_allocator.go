@@ -22,7 +22,7 @@ package memory
 import (
 	"runtime"
 
-	cga "github.com/aliyun/aliyun-odps-go-sdk/arrow/memory/internal/cgoalloc"
+	cga "github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory/internal/cgoalloc"
 )
 
 // CgoArrowAllocator is an allocator which exposes the C++ memory pool class

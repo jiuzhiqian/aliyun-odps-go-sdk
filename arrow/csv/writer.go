@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
 )
 
 // Writer wraps encoding/csv.Writer and writes array.Record based on a schema.

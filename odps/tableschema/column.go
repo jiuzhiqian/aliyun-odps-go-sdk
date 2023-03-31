@@ -18,7 +18,7 @@ package tableschema
 
 import (
 	"encoding/json"
-	datatype2 "github.com/aliyun/aliyun-odps-go-sdk/odps/datatype"
+	datatype2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/datatype"
 	"github.com/pkg/errors"
 )
 

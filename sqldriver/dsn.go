@@ -18,7 +18,7 @@ package sqldriver
 
 import (
 	"errors"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
 	"net/url"
 	"strconv"
 	"time"

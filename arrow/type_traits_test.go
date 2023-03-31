@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/decimal128"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/float16"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/decimal128"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/float16"
 )
 
 func TestBooleanTraits(t *testing.T) {

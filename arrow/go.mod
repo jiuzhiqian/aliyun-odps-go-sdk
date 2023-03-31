@@ -1,4 +1,4 @@
-module github.com/aliyun/aliyun-odps-go-sdk/arrow
+module github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow
 
 go 1.17
 

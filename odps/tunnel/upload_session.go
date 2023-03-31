@@ -18,10 +18,10 @@ package tunnel
 
 import (
 	"encoding/json"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"github.com/pkg/errors"
 	"io"
 	"net/http"

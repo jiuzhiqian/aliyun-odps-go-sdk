@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/cpu"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/cpu"
 )
 
 func TestAMD64minimalFeatures(t *testing.T) {

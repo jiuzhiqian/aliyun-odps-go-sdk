@@ -22,9 +22,9 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/flatbuf"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/flatbuf"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	"golang.org/x/xerrors"
 )
 

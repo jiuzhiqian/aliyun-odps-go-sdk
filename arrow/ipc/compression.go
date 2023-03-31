@@ -19,8 +19,8 @@ package ipc
 import (
 	"io"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/flatbuf"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/flatbuf"
 	"github.com/klauspost/compress/zstd"
 	"github.com/pierrec/lz4/v4"
 )

@@ -23,8 +23,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/common"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/common"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"github.com/pkg/errors"
 )
 

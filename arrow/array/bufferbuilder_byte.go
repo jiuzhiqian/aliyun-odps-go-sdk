@@ -16,7 +16,7 @@
 
 package array
 
-import "github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+import "github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 
 type byteBufferBuilder struct {
 	bufferBuilder

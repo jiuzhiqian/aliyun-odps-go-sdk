@@ -19,11 +19,11 @@ package tunnel_test
 import (
 	"log"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	account2 "github.com/aliyun/aliyun-odps-go-sdk/odps/account"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/data"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/restclient"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tunnel"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	account2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/data"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/restclient"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tunnel"
 )
 
 func Example_tunnel_download_instance_result() {

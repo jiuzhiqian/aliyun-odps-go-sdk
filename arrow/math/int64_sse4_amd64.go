@@ -24,7 +24,7 @@ package math
 import (
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
 )
 
 //go:noescape

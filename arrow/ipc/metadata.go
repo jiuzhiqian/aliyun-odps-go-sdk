@@ -21,9 +21,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/flatbuf"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/flatbuf"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	flatbuffers "github.com/google/flatbuffers/go"
 	"golang.org/x/xerrors"
 )

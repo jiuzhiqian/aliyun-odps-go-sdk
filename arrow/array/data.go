@@ -22,9 +22,9 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 // Data represents the memory and metadata of an Arrow array.
@@ -142,7 +142,9 @@ func (d *Data) Buffers() []*memory.Buffer { return d.buffers }
 
 // NewSliceData returns a new slice that shares backing data with the input.
 // The returned Data slice starts at i and extends j-i elements, such as:
-//    slice := data[i:j]
+//
+//	slice := data[i:j]
+//
 // The returned value must be Release'd after use.
 //
 // NewSliceData panics if the slice is outside the valid range of the input Data.

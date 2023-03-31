@@ -20,7 +20,7 @@
 package memory
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/cpu"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/cpu"
 )
 
 func init() {

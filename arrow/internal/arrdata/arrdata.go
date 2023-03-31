@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/decimal128"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/float16"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/testing/types"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/decimal128"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/float16"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/testing/types"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 var (

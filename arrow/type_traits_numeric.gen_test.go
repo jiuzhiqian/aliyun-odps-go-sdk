@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
 )
 
 func TestInt64Traits(t *testing.T) {

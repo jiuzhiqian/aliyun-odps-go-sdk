@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/float16"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/float16"
 )
 
 // A type which represents an immutable sequence of Float16 values.

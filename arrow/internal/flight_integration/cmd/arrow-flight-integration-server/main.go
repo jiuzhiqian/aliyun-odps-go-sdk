@@ -23,7 +23,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/flight_integration"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/flight_integration"
 )
 
 var (

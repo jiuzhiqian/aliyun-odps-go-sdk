@@ -19,9 +19,9 @@ package array
 import (
 	"sync/atomic"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 // A bufferBuilder provides common functionality for populating memory with a sequence of type-specific values.

@@ -18,7 +18,7 @@ package odps
 
 import (
 	"fmt"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/security"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/security"
 	"github.com/pkg/errors"
 	"io/ioutil"
 	"log"

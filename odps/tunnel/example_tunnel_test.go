@@ -21,9 +21,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
-	tunnel2 "github.com/aliyun/aliyun-odps-go-sdk/odps/tunnel"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
+	tunnel2 "github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tunnel"
 	"github.com/pkg/errors"
 )
 

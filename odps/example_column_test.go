@@ -19,7 +19,7 @@ package odps_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/tableschema"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/tableschema"
 	"log"
 )
 

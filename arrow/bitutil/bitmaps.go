@@ -20,8 +20,8 @@ import (
 	"math/bits"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/endian"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/debug"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/endian"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/debug"
 )
 
 // BitmapReader is a simple bitmap reader for a byte slice.

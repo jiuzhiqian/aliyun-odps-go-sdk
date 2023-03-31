@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/sqldriver"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/sqldriver"
 )
 
 func main() {

@@ -21,12 +21,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/arrio"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/arrjson"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/testing/types"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/ipc"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/arrio"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/arrjson"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/testing/types"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/ipc"
 	"golang.org/x/xerrors"
 )
 

@@ -17,8 +17,8 @@
 package array
 
 import (
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 // Map represents an immutable sequence of Key/Value structs. It is a
@@ -122,26 +122,25 @@ type MapBuilder struct {
 // building using keys in sorted order for each value. The KeysSorted value will just be
 // used when creating the DataType for the map.
 //
-// Example
+// # Example
 //
 // Simple example provided of converting a []map[string]int32 to an array.Map
 // by using a MapBuilder:
 //
-//   /* assume maplist == []map[string]int32 */
-//   bldr := array.NewMapBuilder(memory.DefaultAllocator, arrow.BinaryTypes.String, arrow.PrimitiveTypes.Int32, false)
-//   defer bldr.Release()
-//   kb := bldr.KeyBuilder().(*array.StringBuilder)
-//   ib := bldr.ItemBuilder().(*array.Int32Builder)
-//   for _, m := range maplist {
-//       bldr.Append(true)
-//       for k, v := range m {
-//            kb.Append(k)
-//            ib.Append(v)
-//       }
-//   }
-//   maparr := bldr.NewMapArray()
-//   defer maparr.Release()
-//
+//	/* assume maplist == []map[string]int32 */
+//	bldr := array.NewMapBuilder(memory.DefaultAllocator, arrow.BinaryTypes.String, arrow.PrimitiveTypes.Int32, false)
+//	defer bldr.Release()
+//	kb := bldr.KeyBuilder().(*array.StringBuilder)
+//	ib := bldr.ItemBuilder().(*array.Int32Builder)
+//	for _, m := range maplist {
+//	    bldr.Append(true)
+//	    for k, v := range m {
+//	         kb.Append(k)
+//	         ib.Append(v)
+//	    }
+//	}
+//	maparr := bldr.NewMapArray()
+//	defer maparr.Release()
 func NewMapBuilder(mem memory.Allocator, keytype, itemtype arrow.DataType, keysSorted bool) *MapBuilder {
 	etype := arrow.MapOf(keytype, itemtype)
 	etype.KeysSorted = keysSorted

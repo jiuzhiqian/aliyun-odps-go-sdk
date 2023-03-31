@@ -19,8 +19,8 @@ package array
 import (
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/testing/tools"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/testing/tools"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	"github.com/stretchr/testify/assert"
 )
 

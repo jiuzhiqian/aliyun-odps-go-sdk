@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/bitutil"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/bitutil"
 	"github.com/stretchr/testify/assert"
 )
 

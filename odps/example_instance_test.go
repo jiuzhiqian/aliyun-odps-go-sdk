@@ -21,7 +21,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
 )
 
 func ExampleInstances_List() {

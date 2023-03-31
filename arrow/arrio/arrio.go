@@ -21,7 +21,7 @@ package arrio
 import (
 	"io"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/array"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/array"
 )
 
 // Reader is the interface that wraps the Read method.

@@ -17,18 +17,18 @@
 package data
 
 //
-//import (
+// import (
 //	"fmt"
-//	"github.com/aliyun/aliyun-odps-go-sdk/datatype"
+//	"github.com/jiuzhiqian/aliyun-odps-go-sdk/datatype"
 //	"reflect"
 //	"testing"
-//)
+// )
 //
 //
-//// []Decimal
-//// []Struct
+// // []Decimal
+// // []Struct
 //
-//func TestTryConvertToOdps(t *testing.T) {
+// func TestTryConvertToOdps(t *testing.T) {
 //	type ComplexData struct {
 //		Int int32
 //		Slice []int64
@@ -68,9 +68,9 @@ package data
 //	}
 //
 //	fmt.Printf("%v\n", c1)
-//}
+// }
 //
-//func TestStruct(t *testing.T)  {
+// func TestStruct(t *testing.T)  {
 //	st := datatype.NewStructType(
 //		datatype.NewStructFieldType("X", datatype.IntType),
 //		datatype.NewStructFieldType("Y", datatype.IntType),
@@ -107,9 +107,9 @@ package data
 //	}
 //
 //	fmt.Printf("X=%v, Y=%v, Z=%v\n", s.data["X"], s.data["Y"], s.data["Z"])
-//}
+// }
 //
-//func TestTemp(_ *testing.T)  {
+// func TestTemp(_ *testing.T)  {
 //	t := reflect.TypeOf(datatype.IntType)
 //	println(t.Name())
 //	println(t.PkgPath())

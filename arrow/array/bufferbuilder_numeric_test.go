@@ -20,8 +20,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/endian"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/endian"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 	"github.com/stretchr/testify/assert"
 )
 

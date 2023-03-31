@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/odps"
-	"github.com/aliyun/aliyun-odps-go-sdk/odps/account"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/odps/account"
 )
 
 func main() {
@@ -39,10 +39,10 @@ func main() {
 		"partitioned by (p1 int, p2 string); "
 
 	// 如果project的数据类型版本是1.0，需要通过下面的hints使用mc 2.0数据类型
-	//hints := make(map[string]string)
-	//hints["odps.sql.type.system.odps2"] = "true"
-	//hints["odps.sql.decimal.odps2"] = "true"
-	//ins, err := odpsIns.ExecSQlWithHints(sql, hints)
+	// hints := make(map[string]string)
+	// hints["odps.sql.type.system.odps2"] = "true"
+	// hints["odps.sql.decimal.odps2"] = "true"
+	// ins, err := odpsIns.ExecSQlWithHints(sql, hints)
 
 	ins, err := odpsIns.ExecSQl(sql)
 	if err != nil {

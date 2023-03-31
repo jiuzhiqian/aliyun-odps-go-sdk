@@ -22,7 +22,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/flight"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/flight"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

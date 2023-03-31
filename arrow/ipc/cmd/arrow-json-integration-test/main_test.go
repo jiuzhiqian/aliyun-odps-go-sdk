@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/arrdata"
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/memory"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/arrdata"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/memory"
 )
 
 func TestIntegration(t *testing.T) {

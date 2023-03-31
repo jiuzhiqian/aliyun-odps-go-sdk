@@ -1,4 +1,4 @@
-module github.com/aliyun/aliyun-odps-go-sdk
+module github.com/jiuzhiqian/aliyun-odps-go-sdk
 
 go 1.17
 
@@ -8,10 +8,10 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
 
-replace github.com/aliyun/aliyun-odps-go-sdk/arrow => ./arrow
+replace github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow => ./arrow
 
 require (
-	github.com/aliyun/aliyun-odps-go-sdk/arrow v0.0.0-00010101000000-000000000000
+	github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow v0.0.1
 	github.com/golang/snappy v0.0.3
 	github.com/pkg/errors v0.9.1
 	golang.org/x/exp v0.0.0-20211123021643-48cbe7f80d7c

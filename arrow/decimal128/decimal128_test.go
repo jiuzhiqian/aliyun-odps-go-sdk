@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/decimal128"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/decimal128"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aliyun/aliyun-odps-go-sdk/arrow/internal/testing/tools"
+	"github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow/internal/testing/tools"
 	"github.com/stretchr/testify/assert"
 )
 
