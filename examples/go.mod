@@ -2,13 +2,8 @@ module odpsexample
 
 go 1.17
 
-replace github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow => ../arrow
-
-replace github.com/jiuzhiqian/aliyun-odps-go-sdk => ../
 
 require (
-	github.com/jiuzhiqian/aliyun-odps-go-sdk v0.0.1
-	github.com/jiuzhiqian/aliyun-odps-go-sdk/arrow v0.0.1
 	github.com/pkg/errors v0.9.1
 )
 
